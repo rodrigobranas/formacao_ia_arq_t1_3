@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: arqiat1-postgres
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  postgres-test:
+    image: postgres:16
+    container_name: arqiat1-postgres-test
+    environment:
+      POSTGRES_DB: app_test
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+      - ../database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+volumes:
+  postgres_data:
+  postgres_test_data:

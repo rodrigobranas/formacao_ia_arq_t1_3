@@ -1,0 +1,58 @@
+- generic [ref=e22]:
+  - banner [ref=e23]:
+    - generic [ref=e24]:
+      - link "Ticket Hub branas" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]: Ticket Hub
+          - generic [ref=e32]: branas
+      - generic [ref=e33]:
+        - navigation "Main navigation" [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - text: Dashboard
+          - link "Ticket Types" [ref=e37] [cursor=pointer]:
+            - /url: /settings/ticket-types
+            - text: Ticket Types
+          - link "User Management" [ref=e38] [cursor=pointer]:
+            - /url: /settings/users
+            - text: User Management
+          - link "Organization Settings" [ref=e39] [cursor=pointer]:
+            - /url: /settings/organization
+            - text: Organization Settings
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - paragraph [ref=e42]: Rodrigo Branas
+            - paragraph [ref=e43]: branas
+          - button "Sign out" [ref=e44] [cursor=pointer]
+  - main [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: Dashboard
+          - heading "Welcome back, Rodrigo Branas" [level=1] [ref=e55]
+          - paragraph [ref=e56]: You are working inside branas. Use the dashboard to move into ticket configuration and workspace administration.
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Current workspace
+          - paragraph [ref=e59]: branas
+          - paragraph [ref=e60]: Signed in as Rodrigo Branas
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: "01"
+            - heading "Ticket Types" [level=2] [ref=e65]
+            - paragraph [ref=e66]: Manage the categories your team can assign to support requests.
+          - button "Manage ticket types" [ref=e67] [cursor=pointer]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: "02"
+            - heading "User Management" [level=2] [ref=e71]
+            - paragraph [ref=e72]: Invite teammates and review admin access across your organization.
+          - button "Manage users" [ref=e73] [cursor=pointer]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: "03"
+            - heading "Organization Settings" [level=2] [ref=e77]
+            - paragraph [ref=e78]: Keep your workspace identity current for everyone signing in.
+          - button "Open settings" [ref=e79] [cursor=pointer]

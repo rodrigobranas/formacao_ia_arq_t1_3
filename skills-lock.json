@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-sdk": {
+      "source": "vercel/ai",
+      "sourceType": "github",
+      "computedHash": "81af098a4ce6f0e323c1bd02b8e79df3bbaed57cbf1c4060f58ddc95de5545a1"
+    },
+    "assistant-ui": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "computedHash": "cfce3ce8c4c2da38f0fc8e881af677efa8166d379862541f79c54e66f1a599d5"
+    },
+    "context7": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "23f0178420043f01cd0f00745eb06eaac6f3eee4ef58f87f1ae353c2a408f79c"
+    },
+    "exa-web-search-free": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "4456756ff2cf096cc7c6d2fc9d6771e2a1ea0084868f28b69f68157757ee50c8"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "computedHash": "507f011a70e8b3ae242bdc0bb5b39fd91a1d4049a0f3c281991ccf84973d591c"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "computedHash": "0a413bf988d06481f69bb81df2070741c3ba12dd9f1be2706d57f259c905992d"
+    }
+  }
+}

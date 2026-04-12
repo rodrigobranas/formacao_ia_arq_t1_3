@@ -1,0 +1,12 @@
+{
+  "run_id": "tasks-fullstack-monorepo-ebf5a9-20260406-233155-000000000",
+  "mode": "prd-tasks",
+  "ide": "codex",
+  "model": "",
+  "output_format": "text",
+  "artifacts_dir": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-fullstack-monorepo-ebf5a9-20260406-233155-000000000",
+  "jobs_dir": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-fullstack-monorepo-ebf5a9-20260406-233155-000000000/jobs",
+  "result_path": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-fullstack-monorepo-ebf5a9-20260406-233155-000000000/result.json",
+  "job_count": 5,
+  "created_at": "2026-04-06T23:31:55.597073Z"
+}

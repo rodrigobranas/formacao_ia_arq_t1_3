@@ -1,0 +1,29 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Sign in
+        - heading "Welcome back" [level=1] [ref=e8]
+        - paragraph [ref=e9]: Access your organization workspace with your email and password.
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - text: Email
+          - textbox "Email" [ref=e12]:
+            - /placeholder: jane@acme.com
+            - text: rodrigo.branas@gmail.com
+        - generic [ref=e13]:
+          - text: Password
+          - textbox "Password" [ref=e14]:
+            - /placeholder: Enter your password
+            - text: asdQWE123
+        - alert [ref=e22]: Unable to sign in.
+        - button "Sign in" [ref=e15] [cursor=pointer]
+      - paragraph [ref=e16]:
+        - text: Create a new organization
+        - link "here" [ref=e17] [cursor=pointer]:
+          - /url: /signup
+        - text: .
+    - generic [ref=e18]:
+      - generic [ref=e19]: Secure access
+      - heading "Continue where your team left off." [level=2] [ref=e20]
+      - paragraph [ref=e21]: Your organization data stays scoped to the authenticated workspace while the app header and protected routes handle the rest.

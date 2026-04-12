@@ -1,0 +1,12 @@
+{
+  "run_id": "tasks-signup-signin-e7af42-20260407-153124-000000000",
+  "mode": "prd-tasks",
+  "ide": "claude",
+  "model": "",
+  "output_format": "text",
+  "artifacts_dir": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-signup-signin-e7af42-20260407-153124-000000000",
+  "jobs_dir": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-signup-signin-e7af42-20260407-153124-000000000/jobs",
+  "result_path": "/Users/rodrigobranas/development/workspace/branas/arqiat1/.compozy/runs/tasks-signup-signin-e7af42-20260407-153124-000000000/result.json",
+  "job_count": 3,
+  "created_at": "2026-04-07T15:31:24.81931Z"
+}
