@@ -1,0 +1,13 @@
+node_modules
+.turbo
+dist
+dist-ssr
+coverage
+.env
+.env.local
+.DS_Store
+storybook-static
+packages/*/dist
+packages/*/coverage
+packages/*/node_modules
+.codex/CONTINUITY.md

@@ -1,0 +1,52 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["unicorn", "typescript", "oxc"],
+    "jsPlugins": [
+        "./lint-plugins/react-component-complexity.mjs",
+        "./lint-plugins/react-hooks-separation.mjs",
+        "./lint-plugins/test-file-location.mjs"
+    ],
+    "rules": {
+        "no-unused-vars": "error",
+        "no-unused-private-class-members": "error",
+        "unicorn/no-empty-file": "warn"
+    },
+    "overrides": [
+        {
+            "files": ["packages/frontend/src/**/*.tsx"],
+            "rules": {
+                "mastra-rag-react/max-component-complexity": [
+                    "error",
+                    {
+                        "maxHooks": 5,
+                        "maxHandlers": 3,
+                        "maxTotal": 7
+                    }
+                ],
+                "mastra-rag-react-hooks/no-mixed-hooks-and-components": "warn"
+            }
+        },
+        {
+            "files": ["packages/frontend/src/**/*.{ts,tsx}"],
+            "rules": {
+                "mastra-rag-react-hooks/hooks-in-hooks-folder": "warn"
+            }
+        },
+        {
+            "files": ["packages/frontend/src/components/ui/**/*.{ts,tsx}"],
+            "rules": {
+                "mastra-rag-react/max-component-complexity": "off",
+                "mastra-rag-react-hooks/no-mixed-hooks-and-components": "off",
+                "mastra-rag-react-hooks/hooks-in-hooks-folder": "off"
+            }
+        },
+        {
+            "files": ["**/*.test.{ts,tsx}", "**/__tests__/**/*.{ts,tsx}", "**/*.stories.{ts,tsx}"],
+            "rules": {
+                "mastra-rag-react/max-component-complexity": "off",
+                "mastra-rag-react-hooks/no-mixed-hooks-and-components": "off",
+                "mastra-rag-react-hooks/hooks-in-hooks-folder": "off"
+            }
+        }
+    ]
+}
